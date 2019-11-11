@@ -7,7 +7,7 @@ exports[`build build-with-ts 1`] = `
       "__html": "{
   \\"devDependencies\\": {
     \\"@namics/ts-config\\": \\"0.4.2\\",
-    \\"typescript\\": \\"3.6.4\\"
+    \\"typescript\\": \\"3.7.2\\"
   },
   \\"browserslist\\": [
     \\"> 1%\\",
@@ -93,12 +93,12 @@ exports[`build default 2`] = `
     \\"not ie <= 10\\"
   ],
   \\"devDependencies\\": {
-    \\"@babel/cli\\": \\"7.6.4\\",
-    \\"@babel/core\\": \\"7.6.4\\",
-    \\"@babel/plugin-proposal-decorators\\": \\"7.6.0\\",
+    \\"@babel/cli\\": \\"7.7.0\\",
+    \\"@babel/core\\": \\"7.7.2\\",
+    \\"@babel/plugin-proposal-decorators\\": \\"7.7.0\\",
     \\"@babel/plugin-syntax-dynamic-import\\": \\"7.2.0\\",
-    \\"@babel/preset-env\\": \\"7.6.3\\",
-    \\"@babel/preset-react\\": \\"7.6.3\\"
+    \\"@babel/preset-env\\": \\"7.7.1\\",
+    \\"@babel/preset-react\\": \\"7.7.0\\"
   },
   \\"scripts\\": {
     \\"build\\": \\"babel src --out-dir build\\",

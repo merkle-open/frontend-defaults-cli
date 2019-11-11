@@ -46,11 +46,11 @@ exports[`webpack default 2`] = `
     \\"start\\": \\"webpack-dev-server --mode development\\"
   },
   \\"devDependencies\\": {
-    \\"@babel/core\\": \\"7.6.4\\",
-    \\"@babel/plugin-proposal-decorators\\": \\"7.6.0\\",
+    \\"@babel/core\\": \\"7.7.2\\",
+    \\"@babel/plugin-proposal-decorators\\": \\"7.7.0\\",
     \\"@babel/plugin-syntax-dynamic-import\\": \\"7.2.0\\",
-    \\"@babel/preset-env\\": \\"7.6.3\\",
-    \\"@babel/preset-react\\": \\"7.6.3\\",
+    \\"@babel/preset-env\\": \\"7.7.1\\",
+    \\"@babel/preset-react\\": \\"7.7.0\\",
     \\"asset-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"clean-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"css-loader\\": \\"3.2.0\\",
@@ -61,7 +61,7 @@ exports[`webpack default 2`] = `
     \\"webpack-dev-server\\": \\"0.1.0-mock\\"
   },
   \\"dependencies\\": {
-    \\"@babel/polyfill\\": \\"7.6.0\\"
+    \\"@babel/polyfill\\": \\"7.7.0\\"
   }
 }",
     }
@@ -139,7 +139,7 @@ exports[`webpack webpack-with-ts 1`] = `
     \\"start\\": \\"webpack-dev-server --mode development\\"
   },
   \\"dependencies\\": {
-    \\"core-js\\": \\"3.3.6\\"
+    \\"core-js\\": \\"3.4.0\\"
   }
 }",
     }
