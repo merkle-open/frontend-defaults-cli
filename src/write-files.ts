@@ -16,7 +16,7 @@ export const writeFiles = async (files: string[], mergedFiles: IMergedFiles, { c
 	const tasks = new Listr(
 		files.map((file: string) => ({
 			title: file,
-			task: () => Promise.all([writeFile(path.join(cwd, file), mergedFiles[file].data), wait()]),
+			task: async () => Promise.all([writeFile(path.join(cwd, file), mergedFiles[file].data), wait()]),
 		})),
 		{
 			concurrent: 3,

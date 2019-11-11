@@ -1,3 +1,5 @@
+/* eslint complexity: 0 */
+import chalk from 'chalk';
 import { getCwd } from './get-cwd';
 import { install, openVSCode } from './install';
 import { showDiff } from './log-diff';
@@ -5,7 +7,6 @@ import { writeFiles } from './write-files';
 import { fetchSurveyFiles } from './fetch-survey';
 import { TLicense, TMode, TPreset, IOptions } from './const';
 import { collectChanges } from './collect-changes';
-import chalk from 'chalk';
 import { IPackageJson } from './type-package-json';
 import { gitInit } from './git-init';
 
@@ -98,5 +99,4 @@ export async function api(apiOptions: IApiOptions) {
 		console.error(chalk.red(err));
 		process.exit(1);
 	}
-	return;
 }

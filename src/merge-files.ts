@@ -17,8 +17,8 @@ export interface IMergedFiles {
 	};
 }
 
-const uniqueArray = (arr: Array<string | number>) => arr.filter((value, index) => value !== arr[index - 1]);
-type TArrStrNum = Array<string | number>;
+const uniqueArray = (arr: (string | number)[]) => arr.filter((value, index) => value !== arr[index - 1]);
+type TArrStrNum = (string | number)[];
 type TFindArrayInObject = { [key: string]: TArrStrNum | TFindArrayInObject };
 const findArrayInObject = (obj: TFindArrayInObject, cb: (arr: TArrStrNum) => TArrStrNum) => {
 	Object.keys(obj).forEach((key) => {
@@ -35,7 +35,7 @@ const findArrayInObject = (obj: TFindArrayInObject, cb: (arr: TArrStrNum) => TAr
 	});
 };
 const removeDuplicateArrayEntiesInObject = (obj: TFindArrayInObject) => {
-	findArrayInObject(obj, (arr: Array<string | number>) => {
+	findArrayInObject(obj, (arr: (string | number)[]) => {
 		return uniqueArray(arr);
 	});
 	return obj;
@@ -55,7 +55,7 @@ const areFilesEqual = (fileA: string | object, fileB: string | object) => {
 };
 
 export const mergeFiles = (originalFiles: IFiles, changes: IFiles): IMergedFiles => {
-	let mergedFiles: IMergedFiles = {};
+	const mergedFiles: IMergedFiles = {};
 
 	Object.keys(changes).forEach((fileName: string) => {
 		let override = Boolean(originalFiles[fileName]);

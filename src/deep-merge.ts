@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/generic-type-naming: 0, max-params: 0 */
 import deepMerge from 'deepmerge';
 
 const merge = <

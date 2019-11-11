@@ -85,7 +85,7 @@ const updatePackageJson = async (
 	}
 
 	const template = await fetchTemplateJson('webpack', 'package.json');
-	let packageData = deepMerge(template, { devDependencies });
+	const packageData = deepMerge(template, { devDependencies });
 
 	if (ts) {
 		const templateCoreJs = await fetchTemplateJson('webpack', 'package-core-js.json');

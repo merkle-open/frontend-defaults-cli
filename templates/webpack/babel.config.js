@@ -3,21 +3,17 @@ module.exports = {
 		[
 			require.resolve('@babel/plugin-proposal-decorators'),
 			{
-				"legacy": true
+				legacy: true,
 			},
 		],
-		[
-			require.resolve('@babel/plugin-syntax-dynamic-import'),
-		],
+		[require.resolve('@babel/plugin-syntax-dynamic-import')],
 	],
 	presets: [
-		[
-			require.resolve('@babel/preset-react'),
-		],
+		[require.resolve('@babel/preset-react')],
 		[
 			require.resolve('@babel/preset-env'),
 			{
-				useBuiltIns: 'entry'
+				useBuiltIns: 'entry',
 			},
 		],
 	],

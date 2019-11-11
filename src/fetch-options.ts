@@ -12,11 +12,12 @@ export const hasOptions = (options: any) => Object.values(options).some((val) =>
 const transformAnswersToOptions = (answers: IProgram): IOptions => {
 	const options = {
 		cwd: Array.isArray(answers.args) && answers.args[0] ? path.join(cwd, answers.args[0]) : cwd,
-		license: answers.licenseOpenSource
-			? TYPE_CHOICES.licenseOpenSource
-			: answers.licenseClosedSource
-			? TYPE_CHOICES.licenseClosedSource
-			: undefined,
+		license: (() => {
+			if (answers.licenseOpenSource) {
+				return TYPE_CHOICES.licenseOpenSource;
+			}
+			return answers.licenseClosedSource ? TYPE_CHOICES.licenseClosedSource : undefined;
+		})(),
 		copyrightHolder: answers.copyrightHolder,
 		install: answers.noInstall ? false : answers.install || true,
 		force: answers.force || false,
@@ -87,6 +88,7 @@ const transformAnswersToOptions = (answers: IProgram): IOptions => {
 };
 
 export const fetchOptions = async (): Promise<IOptions> => {
+	// eslint-disable-next-line
 	const packageData = require('../package.json');
 
 	const pg = (new Command()
@@ -113,13 +115,13 @@ export const fetchOptions = async (): Promise<IOptions> => {
 		.option('-w --webpack', 'add webpack with webpack-config-plugins')
 		.option('-b --build', 'add build and watch script')
 		.option('-i --install', 'install dependencies')
-		.option('-ni --noInstall', "don't install dependencies")
+		.option('-ni --noInstall', 'do not install dependencies')
 		.option('-f --force', 'create package.json and override existing files')
 		.option('-cwd --cwd', 'defines where the configurations will be installed (default = process.cwd())')
 		.option('-d --dryRun', 'prints changes will happens by given args')
 		.parse(process.argv) as any) as IProgram;
 
-	let newCwd = pg.args.length === 1 ? path.join(cwd, pg.args[0]) : path.join(cwd);
+	const newCwd = pg.args.length === 1 ? path.join(cwd, pg.args[0]) : path.join(cwd);
 
 	if (pg.args.length === 1 && pg.rawArgs.length <= 3) {
 		const survey = await fetchSurvey(newCwd);

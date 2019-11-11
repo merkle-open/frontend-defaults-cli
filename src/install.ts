@@ -7,7 +7,10 @@ import { fetchPackage } from './fetch-package';
 import { IPackageJson } from './type-package-json';
 import { IOptions } from './const';
 
-const updatePackageJson = async <P>({ cwd }: IOptions, changes: P): Promise<{ 'package.json'?: IPackageJson }> => {
+const updatePackageJson = async <TChanges>(
+	{ cwd }: IOptions,
+	changes: TChanges
+): Promise<{ 'package.json'?: IPackageJson }> => {
 	const packageDataScripts: { [script: string]: string } = {
 		...(((await fetchPackage(cwd)) || {}).scripts || {}),
 		...(((changes as any)['package.json'] || {}).scripts || {}),
@@ -27,8 +30,8 @@ const updatePackageJson = async <P>({ cwd }: IOptions, changes: P): Promise<{ 'p
 	};
 };
 
-export const install = async ({ install, cwd }: IOptions) => {
-	if (!install) {
+export const install = async (options: IOptions) => {
+	if (!options.install) {
 		return;
 	}
 
@@ -39,7 +42,7 @@ export const install = async ({ install, cwd }: IOptions) => {
 			return;
 		}
 		await execa('npm', ['i'], {
-			cwd,
+			cwd: options.cwd,
 		});
 		spinnerInstall.stop();
 	} catch (err) {
@@ -67,6 +70,6 @@ export const openVSCode = async ({ cwd }: IOptions) => {
 	}
 };
 
-export const create = async <P>(options: IOptions, changes: P) => ({
+export const create = async <TChanges>(options: IOptions, changes: TChanges) => ({
 	...(await updatePackageJson(options, changes)),
 });

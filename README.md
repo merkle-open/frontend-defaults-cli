@@ -4,25 +4,35 @@
 
 ## Usage
 
-`npx @namics/frontend-defaults-cli my-project`
+```shell
+npx @namics/frontend-defaults-cli my-project
+```
 
 or in an existing project
 
-`npx @namics/frontend-defaults-cli`
+```shell
+npx @namics/frontend-defaults-cli
+```
 
 ### Show potential changes
 
-`npx @namics/frontend-defaults-cli --eslint --dryRun`
+```shell
+npx @namics/frontend-defaults-cli --eslint --dryRun
+```
 
 ### Example greenfield project default with Typescript
 
-`npx @namics/frontend-defaults-cli my-project --presetTs`
+```shell
+npx @namics/frontend-defaults-cli my-project --presetTs
+```
 
 ### Extend existing Typescript project with eslint for typescript
 
-`npx @namics/frontend-defaults-cli --ts --eslint`
-
+```shell
+npx @namics/frontend-defaults-cli --ts --eslint
 ```
+
+```json
 Usage: <project-name> [options]
 
 Options:
@@ -47,7 +57,7 @@ Options:
   -w --webpack                    add webpack with webpack-config-plugins
   -b --build                      add build and watch script
   -i --install                    install dependencies
-  -ni --noInstall                 don't install dependencies
+  -ni --noInstall                 do not install dependencies
   -f --force                      create package.json and override existing files
   -cwd --cwd                      defines where the configurations will be installed (default = process.cwd())
   -d --dryRun                     prints changes will happens by given args
@@ -56,13 +66,13 @@ Options:
 
 ## API usage
 
-```
-const { api } = require("@namics/frontend-defaults-cli");
+```js
+const { api } = require('@namics/frontend-defaults-cli');
 
 api({
-  ts: true,
-  eslint: true,
-  install: false
+	ts: true,
+	eslint: true,
+	install: false,
 });
 ```
 

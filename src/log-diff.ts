@@ -1,8 +1,7 @@
 import chalk from 'chalk';
 import { prompt } from 'enquirer';
-
-import { IFiles, IMergedFiles } from './merge-files';
 import { diffLines } from 'diff';
+import { IFiles, IMergedFiles } from './merge-files';
 import { IOptions } from './const';
 
 const { log } = console;
@@ -59,16 +58,16 @@ export const logDiffJsonStrings = (objA: string, objB: string) => {
 	let unchangedResults: IResult[] = [];
 
 	results.forEach((result, index) => {
-		const { value, added, removed, lineNumber, addedLineNumber, removedLineNumber } = result;
+		const { value, added, removed } = result;
 
 		if (added) {
-			logLineAdded(lineNumber + addedLineNumber, value);
+			logLineAdded(result.lineNumber + result.addedLineNumber, value);
 			unchangedResults = [];
 			return;
 		}
 
 		if (removed) {
-			logLineRemoved(lineNumber + removedLineNumber, value);
+			logLineRemoved(result.lineNumber + result.removedLineNumber, value);
 			unchangedResults = [];
 			return;
 		}
@@ -134,14 +133,14 @@ export const showDiff = async (originalFiles: IFiles, mergedFiles: IMergedFiles,
 	}
 
 	if (options.mode === 'survey') {
-		const { showDiff } = (await prompt({
+		const result = await prompt<{ showDiff: boolean }>({
 			type: 'confirm',
 			name: 'showDiff',
 			message: 'Do you want to take a look at the potential changes',
 			initial: false,
-		})) as { showDiff: boolean };
+		});
 
-		if (showDiff) {
+		if (result.showDiff) {
 			await logDiff(originalFiles, mergedFiles, options);
 		}
 	}

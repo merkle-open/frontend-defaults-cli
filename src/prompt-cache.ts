@@ -1,12 +1,14 @@
 const promptMap = new Map();
 
-export function promptCache<T extends Function>(question: T): T {
-	return <any>function() {
+export function promptCache<TResult extends Function>(question: TResult): TResult {
+	// eslint-disable-next-line
+	// @ts-ignore
+	return function() {
 		if (promptMap.has(question)) {
-			return promptMap.get(question) as T;
+			return promptMap.get(question) as TResult;
 		}
-		// @ts-ignore
-		const result = question.apply(this, arguments) as T;
+		// eslint-disable-next-line
+		const result = question.apply(this, arguments) as TResult;
 		promptMap.set(question, result);
 		return result;
 	};

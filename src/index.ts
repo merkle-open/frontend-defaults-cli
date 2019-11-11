@@ -1,6 +1,6 @@
+import chalk from 'chalk';
 import { api } from './api';
 import { fetchOptions } from './fetch-options';
-import chalk from 'chalk';
 
 export async function execute() {
 	try {

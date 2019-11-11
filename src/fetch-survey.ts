@@ -25,13 +25,14 @@ export const fetchSurveyFiles = async (mergedFiles: IMergedFiles, options: IOpti
 	let files: string[] = [];
 
 	if (options.mode === 'survey') {
-		const filesAnswer = (await prompt({
+		const filesAnswer: { files: string[] } = await prompt({
 			type: 'multiselect',
 			name: 'files',
 			message: 'Select files to write on harddisk \n',
+			// eslint-disable-next-line prefer-spread
 			initial: Array.apply(null, new Array(filesChoices.length)).map((_x: any, index: number) => index),
 			choices: filesChoices,
-		})) as { files: string[] };
+		});
 		files = filesAnswer.files;
 	} else {
 		files = Object.keys(mergedFiles);

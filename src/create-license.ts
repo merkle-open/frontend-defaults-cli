@@ -1,7 +1,7 @@
+import chalk from 'chalk';
 import { fetchTemplate } from './fetch-template';
 import { IPackageJson } from './type-package-json';
 import { TYPE_CHOICES, IOptions } from './const';
-import chalk from 'chalk';
 
 const createLicense = async ({ license, copyrightHolder }: IOptions): Promise<{ LICENSE?: string }> => {
 	if (license !== TYPE_CHOICES.licenseOpenSource) {

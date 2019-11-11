@@ -6,12 +6,14 @@ const existFile = async (pathName: string) => {
 	try {
 		const stat = await fs.stat(pathName);
 		return stat.isFile();
-	} catch (err) {}
+	} catch (err) {
+		// err
+	}
 	return false;
 };
 
 export const fetchOriginalFiles = async (cwd: string, changes: { [key: string]: any }): Promise<IFiles> => {
-	let original: { [key: string]: string } = {};
+	const original: { [key: string]: string } = {};
 	const files = Object.keys(changes);
 	let i = 0;
 

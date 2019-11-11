@@ -39,7 +39,7 @@ const updatePackageJson = async ({ build, ts }: IOptions): Promise<{ 'package.js
 		return {};
 	}
 
-	let packageData = await fetchTemplateJson('build', 'package.json');
+	const packageData = await fetchTemplateJson('build', 'package.json');
 
 	if (ts) {
 		const template = await fetchTemplateJson('build', 'package-ts.json');
