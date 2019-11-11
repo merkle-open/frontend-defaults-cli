@@ -140,6 +140,7 @@
     "sort-package": "npx fixpack",
     "start": "dash4",
     "test": "jest --coverage",
+    "update": "node scripts/update",
     "watch": "run-p watch:*",
     "watch-test": "jest --watchAll --coverage --notify --notifyMode=failure-change",
     "watch:bundle": "webpack --watch --mode=\"development\"",
