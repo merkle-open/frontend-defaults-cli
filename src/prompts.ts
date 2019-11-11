@@ -93,12 +93,14 @@ export const getLicense = promptCache(
 		let copyrightHolder: string | undefined;
 
 		if (license === TYPE_CHOICES.licenseOpenSource) {
-			copyrightHolder = (await prompt<{ copyrightHolder: string }>({
-				type: 'input',
-				name: 'copyrightHolder',
-				message: 'Please enter the copyright holder name',
-				required: true,
-			})).copyrightHolder;
+			copyrightHolder = (
+				await prompt<{ copyrightHolder: string }>({
+					type: 'input',
+					name: 'copyrightHolder',
+					message: 'Please enter the copyright holder name',
+					required: true,
+				})
+			).copyrightHolder;
 		}
 
 		return {
