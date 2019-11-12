@@ -1,6 +1,15 @@
-# Frontend defaults CLI [![npm](https://img.shields.io/npm/v/@namics/frontend-defaults-cli.svg)](https://www.npmjs.com/package/@namics/frontend-defaults-cli)
+<div align="center">
+    <h1>Frontend defaults CLI</h1>
+    <p>CLI tool which creates a default setup for your frontend project</p>
 
-> CLI tool which creates a default setup for your frontend project
+[![npm](https://img.shields.io/npm/v/@namics/frontend-defaults-cli.svg)](https://www.npmjs.com/package/@namics/frontend-defaults-cli)
+[![Travis](https://api.travis-ci.org/@namics/frontend-defaults-cli.svg?branch=master)](https://travis-ci.org/namics/frontend-defaults-cli)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
+
+</div>
+<div style="max-width:640px;margin:0 auto;padding:20px 0 60px 0;">
+    <img src="./frontend-defaults-cli.gif" alt="frontend-defaults-cli screencast">
+</div>
 
 ## Usage
 
