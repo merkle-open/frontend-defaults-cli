@@ -6,7 +6,7 @@ exports[`build build-with-ts 1`] = `
     Object {
       "__html": "{
   \\"devDependencies\\": {
-    \\"@namics/ts-config\\": \\"0.4.2\\",
+    \\"@namics/ts-config\\": \\"0.4.3\\",
     \\"typescript\\": \\"3.7.2\\"
   },
   \\"browserslist\\": [
