@@ -1,7 +1,7 @@
 {
   "name": "@namics/frontend-defaults-cli",
   "description": "CLI tool which creates a default setup for your frontend project",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "author": "Namics AG",
   "bin": {
     "frontend-defaults": "./bin/index.js"
@@ -31,7 +31,7 @@
     "@dash4/server": "0.7.0",
     "@namics/commitlint-conventional-changelog": "1.1.11",
     "@namics/cz-conventional-changelog": "1.1.10",
-    "@namics/eslint-config": "8.0.2",
+    "@namics/eslint-config": "8.0.3",
     "@namics/prettier-config": "0.4.2",
     "@namics/ts-config": "0.4.3",
     "@types/diff": "4.0.2",
@@ -39,7 +39,7 @@
     "@types/jest": "24.0.23",
     "@types/json-stable-stringify": "1.0.32",
     "@types/listr": "0.14.2",
-    "@types/node": "12.12.8",
+    "@types/node": "12.12.11",
     "@types/react": "16.9.11",
     "@types/rimraf": "2.0.3",
     "@types/semver": "6.2.0",
@@ -80,7 +80,7 @@
     "username": "5.1.0",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.10",
-    "zen-observable": "0.8.14"
+    "zen-observable": "0.8.15"
   },
   "engines": {
     "node": ">=8"
