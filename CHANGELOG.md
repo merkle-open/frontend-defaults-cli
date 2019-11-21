@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.6](https://github.com/namics/frontend-defaults-cli/compare/v0.9.5...v0.9.6) (2019-11-21)
+
+### Bug Fixes
+
+-   update dependencies ([4e87d0e](https://github.com/namics/frontend-defaults-cli/commit/4e87d0e7a651ede3535bf065b8889237e92b9c2f))
+
 ### [0.9.5](https://github.com/namics/frontend-defaults-cli/compare/v0.9.4...v0.9.5) (2019-11-21)
 
 ### [0.9.4](https://github.com/namics/frontend-defaults-cli/compare/v0.9.3...v0.9.4) (2019-11-18)
