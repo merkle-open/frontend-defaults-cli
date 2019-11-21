@@ -53,7 +53,7 @@ exports[`typescript-eslint default 4`] = `
     \\"lint:ts\\": \\"eslint . --ext .jsx,.js,.ts,.tsx -c .eslintrc.strict.js\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/eslint-config\\": \\"8.0.2\\",
+    \\"@namics/eslint-config\\": \\"8.0.3\\",
     \\"@namics/ts-config\\": \\"0.4.3\\",
     \\"eslint\\": \\"6.6.0\\",
     \\"eslint-plugin-import\\": \\"2.18.2\\",
@@ -157,7 +157,7 @@ exports[`typescript-eslint with-githooks 5`] = `
     \\"lint:ts\\": \\"eslint . --ext .jsx,.js,.ts,.tsx -c .eslintrc.strict.js\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/eslint-config\\": \\"8.0.2\\",
+    \\"@namics/eslint-config\\": \\"8.0.3\\",
     \\"@namics/ts-config\\": \\"0.4.3\\",
     \\"eslint\\": \\"6.6.0\\",
     \\"eslint-plugin-import\\": \\"2.18.2\\",
@@ -303,7 +303,7 @@ exports[`typescript-eslint with-prettier 6`] = `
     \\"prettier\\": \\"prettier --write \\\\\\"**/*.*(js|jsx|ts|tsx|json|md)\\\\\\"\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/eslint-config\\": \\"8.0.2\\",
+    \\"@namics/eslint-config\\": \\"8.0.3\\",
     \\"@namics/prettier-config\\": \\"0.4.2\\",
     \\"@namics/ts-config\\": \\"0.4.3\\",
     \\"eslint\\": \\"6.6.0\\",
