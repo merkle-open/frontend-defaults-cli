@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"typescript": "3.7.2",
+		"typescript": "3.7.3",
 		"@namics/ts-config": "0.4.3"
 	}
 }

@@ -21,3 +21,6 @@
 
 # Project
 __tests__/tmp
+
+# Generated
+**/CHANGELOG.md
