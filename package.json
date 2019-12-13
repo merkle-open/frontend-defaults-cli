@@ -1,7 +1,7 @@
 {
   "name": "@namics/frontend-defaults-cli",
   "description": "CLI tool which creates a default setup for your frontend project",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "author": "Namics AG",
   "bin": {
     "frontend-defaults": "./bin/index.js"
