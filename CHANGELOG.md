@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.10.0](https://github.com/namics/frontend-defaults-cli/compare/v0.9.8...v0.10.0) (2020-01-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop node 8 support
+
+### Bug Fixes
+
+* drop node 8 support and update dependencies ([9c90c96](https://github.com/namics/frontend-defaults-cli/commit/9c90c96770349c41576af56a7dbc9600455fcbfd))
+
 ### [0.9.8](https://github.com/namics/frontend-defaults-cli/compare/v0.9.7...v0.9.8) (2019-12-13)
 
 
