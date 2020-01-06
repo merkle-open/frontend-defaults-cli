@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [0.10.0](https://github.com/namics/frontend-defaults-cli/compare/v0.9.8...v0.10.0) (2020-01-06)
+## [1.0.0](https://github.com/namics/frontend-defaults-cli/compare/v0.9.8...v1.0.0) (2020-01-06)
 
 
 ### ⚠ BREAKING CHANGES
