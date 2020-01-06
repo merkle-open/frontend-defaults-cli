@@ -46,14 +46,14 @@ exports[`webpack default 2`] = `
     \\"start\\": \\"webpack-dev-server --mode development\\"
   },
   \\"devDependencies\\": {
-    \\"@babel/core\\": \\"7.7.5\\",
+    \\"@babel/core\\": \\"7.7.7\\",
     \\"@babel/plugin-proposal-decorators\\": \\"7.7.4\\",
     \\"@babel/plugin-syntax-dynamic-import\\": \\"7.7.4\\",
-    \\"@babel/preset-env\\": \\"7.7.6\\",
+    \\"@babel/preset-env\\": \\"7.7.7\\",
     \\"@babel/preset-react\\": \\"7.7.4\\",
     \\"asset-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"clean-webpack-plugin\\": \\"0.1.0-mock\\",
-    \\"css-loader\\": \\"3.3.2\\",
+    \\"css-loader\\": \\"3.4.1\\",
     \\"html-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"scss-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"webpack\\": \\"0.1.0-mock\\",
@@ -115,11 +115,11 @@ exports[`webpack webpack-with-ts 1`] = `
     Object {
       "__html": "{
   \\"devDependencies\\": {
-    \\"@namics/ts-config\\": \\"0.4.3\\",
+    \\"@namics/ts-config\\": \\"0.4.4\\",
     \\"@types/core-js\\": \\"2.5.2\\",
     \\"asset-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"clean-webpack-plugin\\": \\"0.1.0-mock\\",
-    \\"css-loader\\": \\"3.3.2\\",
+    \\"css-loader\\": \\"3.4.1\\",
     \\"html-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"scss-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"ts-config-webpack-plugin\\": \\"0.1.0-mock\\",
@@ -139,7 +139,7 @@ exports[`webpack webpack-with-ts 1`] = `
     \\"start\\": \\"webpack-dev-server --mode development\\"
   },
   \\"dependencies\\": {
-    \\"core-js\\": \\"3.5.0\\"
+    \\"core-js\\": \\"3.6.1\\"
   }
 }",
     }

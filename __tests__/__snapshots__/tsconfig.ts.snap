@@ -6,8 +6,8 @@ exports[`tsconfig default 1`] = `
     Object {
       "__html": "{
   \\"devDependencies\\": {
-    \\"@namics/ts-config\\": \\"0.4.3\\",
-    \\"typescript\\": \\"3.7.3\\"
+    \\"@namics/ts-config\\": \\"0.4.4\\",
+    \\"typescript\\": \\"3.7.4\\"
   }
 }",
     }
