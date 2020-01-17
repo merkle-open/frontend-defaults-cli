@@ -57,9 +57,9 @@ exports[`eslint default 4`] = `
     \\"lint:js\\": \\"eslint . -c .eslintrc.strict.js\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/eslint-config\\": \\"8.0.5\\",
+    \\"@namics/eslint-config\\": \\"8.0.6\\",
     \\"eslint\\": \\"6.8.0\\",
-    \\"eslint-plugin-import\\": \\"2.19.1\\",
+    \\"eslint-plugin-import\\": \\"2.20.0\\",
     \\"npm-run-all\\": \\"4.1.5\\"
   }
 }",
@@ -149,10 +149,10 @@ exports[`eslint with-githooks 5`] = `
     \\"lint:js\\": \\"eslint . -c .eslintrc.strict.js\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/eslint-config\\": \\"8.0.5\\",
+    \\"@namics/eslint-config\\": \\"8.0.6\\",
     \\"eslint\\": \\"6.8.0\\",
-    \\"eslint-plugin-import\\": \\"2.19.1\\",
-    \\"husky\\": \\"3.1.0\\",
+    \\"eslint-plugin-import\\": \\"2.20.0\\",
+    \\"husky\\": \\"4.0.10\\",
     \\"lint-staged\\": \\"9.5.0\\",
     \\"npm-run-all\\": \\"4.1.5\\"
   },
@@ -283,10 +283,10 @@ exports[`eslint with-prettier 6`] = `
     \\"prettier\\": \\"prettier --write \\\\\\"**/*.*(js|jsx|ts|tsx|json|md)\\\\\\"\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/eslint-config\\": \\"8.0.5\\",
+    \\"@namics/eslint-config\\": \\"8.0.6\\",
     \\"@namics/prettier-config\\": \\"0.4.3\\",
     \\"eslint\\": \\"6.8.0\\",
-    \\"eslint-plugin-import\\": \\"2.19.1\\",
+    \\"eslint-plugin-import\\": \\"2.20.0\\",
     \\"npm-run-all\\": \\"4.1.5\\",
     \\"prettier\\": \\"1.19.1\\"
   }

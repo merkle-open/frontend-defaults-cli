@@ -7,7 +7,7 @@ exports[`tsconfig default 1`] = `
       "__html": "{
   \\"devDependencies\\": {
     \\"@namics/ts-config\\": \\"0.4.4\\",
-    \\"typescript\\": \\"3.7.4\\"
+    \\"typescript\\": \\"3.7.5\\"
   }
 }",
     }

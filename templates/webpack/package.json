@@ -10,6 +10,6 @@
 		"start": "webpack-dev-server --mode development"
 	},
 	"devDependencies": {
-		"css-loader": "3.4.1"
+		"css-loader": "3.4.2"
 	}
 }
