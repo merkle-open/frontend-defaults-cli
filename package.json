@@ -45,7 +45,7 @@
     "@types/semver": "6.2.0",
     "@types/username": "3.0.0",
     "@types/zen-observable": "0.8.0",
-    "acorn": "7.1.0",
+    "acorn": "7.1.1",
     "chalk": "3.0.0",
     "clean-webpack-plugin": "3.0.0",
     "commander": "4.1.0",
