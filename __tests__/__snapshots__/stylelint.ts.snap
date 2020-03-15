@@ -22,9 +22,9 @@ exports[`stylelint default 2`] = `
     \\"lint:css\\": \\"stylelint src/**/*.*ss\\"
   },
   \\"devDependencies\\": {
-    \\"@namics/stylelint-config\\": \\"0.5.3\\",
+    \\"@namics/stylelint-config\\": \\"1.0.1\\",
     \\"npm-run-all\\": \\"4.1.5\\",
-    \\"stylelint\\": \\"13.0.0\\"
+    \\"stylelint\\": \\"13.2.1\\"
   }
 }",
     }
@@ -99,11 +99,11 @@ exports[`stylelint with-githooks 3`] = `
     ]
   },
   \\"devDependencies\\": {
-    \\"@namics/stylelint-config\\": \\"0.5.3\\",
-    \\"husky\\": \\"4.0.10\\",
-    \\"lint-staged\\": \\"9.5.0\\",
+    \\"@namics/stylelint-config\\": \\"1.0.1\\",
+    \\"husky\\": \\"4.2.3\\",
+    \\"lint-staged\\": \\"10.0.8\\",
     \\"npm-run-all\\": \\"4.1.5\\",
-    \\"stylelint\\": \\"13.0.0\\"
+    \\"stylelint\\": \\"13.2.1\\"
   }
 }",
     }

@@ -18,11 +18,11 @@
 		}
 	},
 	"devDependencies": {
-		"@namics/cz-conventional-changelog": "1.1.11",
-		"@namics/commitlint-conventional-changelog": "1.1.13",
+		"@namics/cz-conventional-changelog": "2.0.1",
+		"@namics/commitlint-conventional-changelog": "1.1.15",
 		"@commitlint/cli": "8.3.5",
-		"husky": "4.0.10",
-		"lint-staged": "9.5.0",
+		"husky": "4.2.3",
+		"lint-staged": "10.0.8",
 		"commitizen": "4.0.3"
 	}
 }

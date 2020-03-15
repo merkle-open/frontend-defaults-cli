@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"@types/core-js": "2.5.2"
+		"@types/core-js": "2.5.3"
 	},
 	"dependencies": {
 		"core-js": "3.6.4"

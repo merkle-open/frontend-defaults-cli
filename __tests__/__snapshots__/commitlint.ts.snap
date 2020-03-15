@@ -39,11 +39,11 @@ exports[`commitlint default 2`] = `
   },
   \\"devDependencies\\": {
     \\"@commitlint/cli\\": \\"8.3.5\\",
-    \\"@namics/commitlint-conventional-changelog\\": \\"1.1.13\\",
-    \\"@namics/cz-conventional-changelog\\": \\"1.1.11\\",
+    \\"@namics/commitlint-conventional-changelog\\": \\"1.1.15\\",
+    \\"@namics/cz-conventional-changelog\\": \\"2.0.1\\",
     \\"commitizen\\": \\"4.0.3\\",
-    \\"husky\\": \\"4.0.10\\",
-    \\"lint-staged\\": \\"9.5.0\\"
+    \\"husky\\": \\"4.2.3\\",
+    \\"lint-staged\\": \\"10.0.8\\"
   }
 }",
     }

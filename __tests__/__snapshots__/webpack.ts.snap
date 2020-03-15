@@ -46,10 +46,10 @@ exports[`webpack default 2`] = `
     \\"start\\": \\"webpack-dev-server --mode development\\"
   },
   \\"devDependencies\\": {
-    \\"@babel/core\\": \\"7.8.3\\",
+    \\"@babel/core\\": \\"7.8.7\\",
     \\"@babel/plugin-proposal-decorators\\": \\"7.8.3\\",
     \\"@babel/plugin-syntax-dynamic-import\\": \\"7.8.3\\",
-    \\"@babel/preset-env\\": \\"7.8.3\\",
+    \\"@babel/preset-env\\": \\"7.8.7\\",
     \\"@babel/preset-react\\": \\"7.8.3\\",
     \\"asset-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"clean-webpack-plugin\\": \\"0.1.0-mock\\",
@@ -61,7 +61,7 @@ exports[`webpack default 2`] = `
     \\"webpack-dev-server\\": \\"0.1.0-mock\\"
   },
   \\"dependencies\\": {
-    \\"@babel/polyfill\\": \\"7.8.3\\"
+    \\"@babel/polyfill\\": \\"7.8.7\\"
   }
 }",
     }
@@ -115,8 +115,8 @@ exports[`webpack webpack-with-ts 1`] = `
     Object {
       "__html": "{
   \\"devDependencies\\": {
-    \\"@namics/ts-config\\": \\"0.4.4\\",
-    \\"@types/core-js\\": \\"2.5.2\\",
+    \\"@namics/ts-config\\": \\"1.0.1\\",
+    \\"@types/core-js\\": \\"2.5.3\\",
     \\"asset-config-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"clean-webpack-plugin\\": \\"0.1.0-mock\\",
     \\"css-loader\\": \\"3.4.2\\",

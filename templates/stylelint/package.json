@@ -3,7 +3,7 @@
 		"lint:css": "stylelint src/**/*.*ss"
 	},
 	"devDependencies": {
-		"stylelint": "13.0.0",
-		"@namics/stylelint-config": "0.5.3"
+		"stylelint": "13.2.1",
+		"@namics/stylelint-config": "1.0.1"
 	}
 }

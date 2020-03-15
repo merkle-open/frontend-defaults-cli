@@ -11,9 +11,9 @@
 		"src/**/*.*ss": ["stylelint"]
 	},
 	"devDependencies": {
-		"husky": "4.0.10",
-		"lint-staged": "9.5.0",
-		"stylelint": "13.0.0",
-		"@namics/stylelint-config": "0.5.3"
+		"husky": "4.2.3",
+		"lint-staged": "10.0.8",
+		"stylelint": "13.2.1",
+		"@namics/stylelint-config": "1.0.1"
 	}
 }
