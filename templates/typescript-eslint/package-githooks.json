@@ -8,7 +8,7 @@
 		"src/**/*.{js,jsx,ts,tsx}": ["eslint --ext .jsx,.js,.ts,.tsx"]
 	},
 	"devDependencies": {
-		"husky": "4.2.3",
-		"lint-staged": "10.0.8"
+		"husky": "4.2.5",
+		"lint-staged": "10.2.2"
 	}
 }

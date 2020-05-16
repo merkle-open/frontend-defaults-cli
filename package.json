@@ -126,7 +126,7 @@
     "build:definitions": "tsc",
     "clean": "npx npm-run-all clean:*",
     "clean:build": "npx rimraf build coverage dist",
-    "clean:dirs": "npx rimraf lerna-debug.log npm-debug.log package-lock.json",
+    "clean:dirs": "npx rimraf npm-debug.log package-lock.json",
     "clean:modules": "npx rimraf node_modules",
     "cz": "git-cz",
     "lint": "npm-run-all lint:*",

@@ -1,6 +1,6 @@
 {
 	"lint-staged": {
-		"*.{js,jsx,ts,tsx,json,md}": ["prettier --write", "git add"]
+		"*.{js,jsx,ts,tsx,json,md}": ["prettier --write"]
 	},
 	"scripts": {
 		"prettier": "prettier --write \"**/*.*(js|jsx|ts|tsx|json|md)\""
@@ -12,8 +12,8 @@
 	},
 	"devDependencies": {
 		"prettier": "1.19.1",
-		"@namics/prettier-config": "1.0.1",
-		"husky": "4.2.3",
-		"lint-staged": "10.0.8"
+		"@namics/prettier-config": "1.1.0",
+		"husky": "4.2.5",
+		"lint-staged": "10.2.2"
 	}
 }

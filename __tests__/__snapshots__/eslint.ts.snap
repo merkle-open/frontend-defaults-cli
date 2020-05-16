@@ -59,7 +59,7 @@ exports[`eslint default 4`] = `
   \\"devDependencies\\": {
     \\"@namics/eslint-config\\": \\"8.0.7\\",
     \\"eslint\\": \\"6.8.0\\",
-    \\"eslint-plugin-import\\": \\"2.20.1\\",
+    \\"eslint-plugin-import\\": \\"2.20.2\\",
     \\"npm-run-all\\": \\"4.1.5\\"
   }
 }",
@@ -151,9 +151,9 @@ exports[`eslint with-githooks 5`] = `
   \\"devDependencies\\": {
     \\"@namics/eslint-config\\": \\"8.0.7\\",
     \\"eslint\\": \\"6.8.0\\",
-    \\"eslint-plugin-import\\": \\"2.20.1\\",
-    \\"husky\\": \\"4.2.3\\",
-    \\"lint-staged\\": \\"10.0.8\\",
+    \\"eslint-plugin-import\\": \\"2.20.2\\",
+    \\"husky\\": \\"4.2.5\\",
+    \\"lint-staged\\": \\"10.2.2\\",
     \\"npm-run-all\\": \\"4.1.5\\"
   },
   \\"husky\\": {
@@ -284,9 +284,9 @@ exports[`eslint with-prettier 6`] = `
   },
   \\"devDependencies\\": {
     \\"@namics/eslint-config\\": \\"8.0.7\\",
-    \\"@namics/prettier-config\\": \\"1.0.1\\",
+    \\"@namics/prettier-config\\": \\"1.1.0\\",
     \\"eslint\\": \\"6.8.0\\",
-    \\"eslint-plugin-import\\": \\"2.20.1\\",
+    \\"eslint-plugin-import\\": \\"2.20.2\\",
     \\"npm-run-all\\": \\"4.1.5\\",
     \\"prettier\\": \\"1.19.1\\"
   }
