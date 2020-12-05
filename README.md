@@ -3,7 +3,7 @@
     <p>CLI tool which creates a default setup for your frontend project</p>
 
 [![npm](https://img.shields.io/npm/v/@namics/frontend-defaults-cli.svg)](https://www.npmjs.com/package/@namics/frontend-defaults-cli)
-[![Travis](https://api.travis-ci.org/namics/frontend-defaults-cli.svg?branch=master)](https://travis-ci.org/namics/frontend-defaults-cli)
+[![Build Status](https://github.com/namics/frontend-defaults-cli/workflows/ci/badge.svg)](https://github.com/namics/frontend-defaults-cli/actions)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
 
 </div>
